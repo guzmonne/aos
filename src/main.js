@@ -1,12 +1,14 @@
 import React from 'react'
+import NavBar from './main/nav-bar.js'
+import Content from './main/content.js'
+
 
 export default class App extends React.Component {
 	render(){
 		return (
-			<section className="content">
-				<h1>
-					Step away from the car motherfucker!
-				</h1>
+			<section id="main">
+				<NavBar></NavBar>
+				<Content></Content>
 			</section>
 		)
 	}
